@@ -10,7 +10,7 @@ print(Greet + Name) #'+' Operator Concatenates Strings
 print(Greet[0])
 print(Greet[1])
 print(Greet[2])
-print(Greet[3]) #Prints The Letter that is on 4th Place in (Char Array = String)
+print(Greet[3]) #Prints The Letter that is on 4th Place(Index starts at 0) in (Char Array = String)
 
 #print(Greet[13]) #Out of Range of char Array or String
 
@@ -32,7 +32,7 @@ print("\n", Name[1:])
 
 print(Name[-7:-1])  # it is same as Name[0:6](Check in above table)
 
-# slicinging With  Skiping
+# slicing With  Skiping
 
 print(Greet[0:13:2])# it print a sliced String while skipping every 2nd Value in String 
             #last Argument in [] specify to skip value after every value of last argument

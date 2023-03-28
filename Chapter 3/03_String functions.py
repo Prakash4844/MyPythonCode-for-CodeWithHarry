@@ -1,7 +1,7 @@
 import os
 
 
-Dialogue = "on that day, everything changed! catestrophic destruction Became Child's Play"
+Dialogue = "On that day, everything changed! catestrophic destruction Became Child's Play"
 
 print(len(Dialogue)) #Prints the Length of a string 
 
@@ -17,5 +17,5 @@ print(Dialogue.find("Became")) # Find and Return Location of a string,
                                 #if Multiple match is found them Location of First Match is Returned
 print(Dialogue.find("bagdad")) # Returns -1 if String not found
 
-print(Dialogue.replace("on", "in")) #Replace all Matching Occurences
+print(Dialogue.replace("On", "in")) #Replace all Matching Occurences
 print(Dialogue.replace("day", "Time"))  
