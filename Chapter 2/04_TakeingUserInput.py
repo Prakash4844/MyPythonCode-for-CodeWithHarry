@@ -1,3 +1,4 @@
+# Author: Prakash
 import os
 
 a = input("Enter the Value of a: ") #Takes the input from user as a "String" to use that value as int of float 

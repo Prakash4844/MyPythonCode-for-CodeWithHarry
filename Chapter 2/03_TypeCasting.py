@@ -1,4 +1,6 @@
+# Author: Prakash
 import os
+
 a = 55 #int variable
 print(type(a))
 print("a is now ", a+45)
@@ -6,7 +8,7 @@ print("a is now ", a+45)
 a = "55" # string variable due to double Quotes around no.
 print(type(a), "\n")
 
-a = int(a) # Typecasting String a into int a because string is a no and can be converted to int (if Possible)
+a = int(a) # Typecasting String into a int because this string is a no. and can be converted to int (if Possible)
 print(type(a))
 print("A is currently a integer ", a, "\n")
 

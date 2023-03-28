@@ -1,4 +1,6 @@
+# Author: Prakash
 import os
+
 a = 55
 b = 45
 
@@ -15,12 +17,16 @@ print("\n")
 #Assignment Operator
 a = 46
 print("a = ",a)
+
 a += 5  # Actually means a = a + 5
 print("a + 5 = ",a)
+
 a -= 9  # Actually means a = a - 9
 print("a - 9 = ",a)
-a *= 2  # Actually means a = a * 5
+
+a *= 5  # Actually means a = a * 5
 print("a * 5 = ",a)
+
 a /= 5  # Actually means a = a / 5
 print("a / 5 = ",a)
 
