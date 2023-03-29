@@ -6,7 +6,7 @@ myDict = {
             "Age": 24,
             "Other Members": ["Superman", "WonderWoman", "Batman"], # Lists can also be defined inside dict 
             
-            "Teen Titans" : ("Cyborg", "Star fire, raven, Beastboy, Robin"),     #Dictionaries Can Contain Tuples too
+            "Teen Titans" : ("Cyborg", "Star fire", "raven", "Beastboy", "Robin"), #Dictionaries Can Contain Tuples too
             
             "Co-op Team" : {"Nightwing":"All Rounder Leader", 
                             "Aquaman":"Vice Leader",
@@ -30,7 +30,7 @@ updatedDict={
     
 myDict.update(updatedDict) # Updating dictionaries
 
-print("\n\n",myDict) #Printing new Dictionary
+print("\n\n",myDict.get("New Members")) #Printing new Dictionary
 
 print(myDict.get("Flash")) # Prints value associated with key "Flash"
 print(myDict["Flash"]) # Prints value associated with key "Flash"

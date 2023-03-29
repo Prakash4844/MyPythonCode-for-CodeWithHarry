@@ -31,7 +31,7 @@ print(a)
 '''The pop() is an inbuilt method in Python that is used to pop out or 
 remove the elements one by one from the set. The element that is the smallest 
 in the set is removed first followed by removing elements in increasing order.'''
-print(a.pop()) #removes any element from set a
+print(a.pop()) #removes smallest element in a 
 print(a)
 
 ####Empties the Set

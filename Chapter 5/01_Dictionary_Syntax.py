@@ -1,13 +1,13 @@
 import os 
 # Dictionaries are Unordered
-# Dictionaries can't contain duplicate Keys, if key is redifined then it is overwritten by Latest Definition
+# Dictionaries can't contain duplicate Keys, if key is redefined then it is overwritten by Latest Definition
 myDict = {
             "Hungry" : "Due to fast metabolism",
             "Flash": "Fastest Man Alive",
             "Age": 24,
             "Other Members": ["Superman", "WonderWoman", "Batman"], # Lists can also be defined inside dict
             
-            "Teen Titans" : ("Cyborg", "Star fire, raven, Beastboy, Robin"),     #Dictionaries Can Contain Tuples too
+            "Teen Titans" : ("Cyborg", "Star fire", "raven", "Beastboy", "Robin"), #Dictionaries Can Contain Tuples too
 
             "Co-op Team" : {    "Nightwing":"All Rounder Leader", 
                                 "Aqualad":"Vice Leader",
@@ -20,6 +20,8 @@ myDict = {
 print(myDict["Flash"])  # use [] for printing Entries from Dict
 print(myDict["Hungry"])
 print(myDict["Age"])
+print(myDict["Teen Titans"])
+print(myDict["Co-op Team"])
 
 myDict["Other Members"] = ["Superman", "Wonder Woman", "Batman", "Green Lantern"]
 # Dictionaries can be changed/Modified(mutable)
