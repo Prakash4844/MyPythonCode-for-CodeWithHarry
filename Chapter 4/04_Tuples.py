@@ -11,8 +11,7 @@ t = (0,8,6,9,4,'A')#This is a Tuple, Tuples can't be updated, it can hold data o
 print(t) # we can print tuple by tuple's name
 
 print(t[0]) #you can print individual values by Specifying Their Index, Index starts at 0
-print(t[2]) #if Index value is out of Range it will throw an error in this case a[7] would be out of range 
+print(t[2]) #if Index value is out of Range it will throw an error in this case t[7] would be out of range 
 print(t[5])
 
-# t[0]=5 #IT will Throw an Error as tuple can't be updated
-
+# t[0]=5 #IT will Throw an Error as tuple is immutable (can't be updated)

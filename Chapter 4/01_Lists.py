@@ -9,9 +9,9 @@ print(a[2]) #if Index value is out of Range it will throw an error in this case 
 print(a[4])
 print(a[6])
 
-#a[7] = 44 # new value can't be added 
+# a[7] = 55 # New Value can't be added
 # print(a[7]) # Will Throw an Error
 
-a[1] = 87 # value in List can be overwritten
+a[1] = 87 # value in List can be overwritten (lists are mutable)
 print(a[1])
 
