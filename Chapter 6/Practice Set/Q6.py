@@ -3,7 +3,7 @@
 marks = int(input("Enter Your Marks\n"))
 
 if marks>=90:
-    grade = "Ex"
+    grade = "A+"
 elif marks>=80:
     grade = "A"
 elif marks>=70:

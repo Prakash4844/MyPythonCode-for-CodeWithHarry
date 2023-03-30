@@ -11,8 +11,8 @@ Total_Percentage = round(Total_Percentage, 3)#rounding fraction to reduce precis
 if(Marks1<33 or Marks2<33 or Marks3<33): #In one of the subject you have less then 33 marks
     print("You FAILED!")    
 elif(Total_Percentage<40): #Your Total Percentage is less than that of 40%
-    print("You are FAILED!")
+    print("You FAILED!")
 elif(Total_Percentage>100): #Someone Needs to be fired!
     print("Oops, There has been some mistake!")
 else:   #You pass, Somehow.
-    print("Congratulations, You are Pass. You've got ", Total_Percentage,"%")
+    print("Congratulations, You Passed. You've got ", Total_Percentage,"%")

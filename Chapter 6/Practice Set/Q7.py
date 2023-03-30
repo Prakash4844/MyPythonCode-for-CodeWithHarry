@@ -5,6 +5,6 @@ import os
 Post = input("Post:")
 
 if("Prakash" in Post or "PRAKASH" in Post or "prakash" in Post):
-    print("Post is talking about me ")
+    print("Post is talking about me.")
 else:
-    print("Post isn't talking about me ")
+    print("Post isn't talking about me.")

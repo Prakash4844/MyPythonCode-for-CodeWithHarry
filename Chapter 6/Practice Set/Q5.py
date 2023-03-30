@@ -1,7 +1,7 @@
 #Solution of Practice Set Q5
 import os 
 
-Name_List = ["Prakash", "Kirti", "Sagar"]
+Name_List = ["Prakash", "Kirti", "Sagar", "Sonali", "Teesha", "Tanu"]
 Name_to_find = input("Enter name to search in list: ")
 
 if(Name_to_find in Name_List):
