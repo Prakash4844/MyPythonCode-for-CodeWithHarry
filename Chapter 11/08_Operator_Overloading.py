@@ -19,7 +19,7 @@ class Number():
         
     def __add__(self, num2): #we have made a custom datatype/class which defines it's own add operator which returns
         print("Let's Add")  #Whatever we define(it can even be hard value of some expression evaluated) 
-        return self.num + num2.num #it returns sum of it own num(n1's) + num2's num(n2's)
+        return self.num + num2.num #it returns sumofno of it own num(n1's) + num2's num(n2's)
     
     def __mul__(self, num2):
         print("Let's Multiply")

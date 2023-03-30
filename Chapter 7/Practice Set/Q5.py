@@ -1,13 +1,11 @@
-#Practice set Q5
-#Author: Prakash
+# Practice set Q5
+# Author: Prakash
 
-import os 
+sumofno = 0
 
-sum = 0
+no = int(input("Enter a no. to find sumofno of natural no. till it: "))  # Getting a no. from user and casting to int
 
-no = int(input("Enter a no. to find sum of natural no. till it: ")) #Getting a no. from user and casting to int
+for i in range(1, no + 1):
+    sumofno += i
 
-for i in range (1, no+1):
-    sum+=i
-    
-print(f"Sum of first {no} natural numbers is: {sum}")
+print(f"Sum of first {no} natural numbers is: {sumofno}")

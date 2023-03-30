@@ -1,19 +1,13 @@
-#Practice set Q4
-#Author: Prakash
+# Practice set Q4
+# Author: Prakash
 
-import os 
-
-no = int(input("Enter a no. to find if it's prime or not: ")) #Getting a no. from user and casting to int
-
-for i in range(2, no):
-    if(no==0 or no==1): #if no is either 1 or 0 then it is not a prime no.
-        print(f"{no} is not prime")
-        break
-    elif (no%i == 0 and no%2 == 0): #if no is divisible by i or 2 then it is not prime no
-        print(f"{no} is not a prime no.")
-        break
-    else:
-        print(f"{no} is prime")
-        break
-
-
+no = int(input("Enter a no. to find if it's prime or not: "))  # Getting a no. from user and casting to int
+if no > 1:  # Checking if no. is greater than 1
+    for i in range(2, no):  # Looping from 2 to no. - 1
+        if no % i == 0:  # Checking if no. is divisible by any no. from 2 to no. - 1
+            print("Not a prime no.")  # Printing if no. is divisible by any no. from 2 to no. - 1
+            break  # Breaking the loop
+    else:  # Executing if no. is not divisible by any no. from 2 to no. - 1
+        print("Prime no.")  # Printing if no. is not divisible by any no. from 2 to no. - 1
+else:  # Executing if no. is less than or equal to 1
+    print("Not a prime no.")  # Printing if no. is less than or equal to 1

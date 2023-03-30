@@ -6,8 +6,6 @@
 import os 
 
 no = int(input("Enter a no. to print it's multiplication table: ")) #Getting a no. from user and casting to int
-multiplier = 1 #count
-
 
 # using for loop with range 
 for i in range(1, 11):
@@ -23,6 +21,8 @@ print('\n')
 
 #Practice set Q3
 #using While-loop
+multiplier = 1 #count
+
 while (multiplier<=10): 
     print(no, "X", multiplier, "=", no*multiplier, '\n')
     multiplier += 1

@@ -1,6 +1,6 @@
 #Author: Prakash
 import os
-#Sample OOPS code to sum no
+#Sample OOPS code to sumofno no
 
 '''
 This is an Example of a class, classes are blueprint for creating an object of class, class don't take memory by themselves 
