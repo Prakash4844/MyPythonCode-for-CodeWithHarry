@@ -1,5 +1,4 @@
 # Author: Prakash
-import os
 
 # Variable that store a int that is determined by the data itself
 a = 55
@@ -28,7 +27,7 @@ h = False
 # variable that store none
 i = None
 
-#Printing the variables
+# Printing the variables
 print(a)
 print(b)
 print(c)
@@ -38,9 +37,9 @@ print(g)
 print(h)
 print(i)
 
-print('\n') #printing new line
+print('\n')  # printing new line
 
-#Printing the DataType of variables
+# Printing the DataType of variables
 print(type(a))
 print(type(b))
 print(type(c))

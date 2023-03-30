@@ -1,19 +1,19 @@
-#Practice set Q3
-#Author: Prakash
+# Practice set Q3
+# Author: Prakash
 
-import os 
 
 class Employee:
     salary = 1200
     increment = 1.5
-    
-    @property   
-    def salaryAfterIncrement(self):  
-        return self.salary*self.increment
-    
-    @salaryAfterIncrement.setter 
+
+    @property
+    def salaryAfterIncrement(self):
+        return self.salary * self.increment
+
+    @salaryAfterIncrement.setter
     def salaryAfterIncrement(self, val):
-        self.increment = val/self.salary
+        self.increment = val / self.salary
+
 
 e = Employee()
 print(e.salaryAfterIncrement)

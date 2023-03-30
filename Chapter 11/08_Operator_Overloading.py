@@ -1,5 +1,3 @@
-import os 
-
 '''
 You can change the meaning of an operator in Python depending upon the operands used
 
@@ -13,25 +11,27 @@ operator overloading.
 NOTE: Method which are written as: __methodNAme__ are known as Dunder Methods
 '''
 
+
 class Number():
     def __init__(self, num):
         self.num = num
-        
-    def __add__(self, num2): #we have made a custom datatype/class which defines it's own add operator which returns
-        print("Let's Add")  #Whatever we define(it can even be hard value of some expression evaluated) 
-        return self.num + num2.num #it returns sumofno of it own num(n1's) + num2's num(n2's)
-    
+
+    def __add__(self, num2):  # we have made a custom datatype/class which defines it's own add operator which returns
+        print("Let's Add")  # Whatever we define(it can even be hard value of some expression evaluated)
+        return self.num + num2.num  # it returns sumofno of it own num(n1's) + num2's num(n2's)
+
     def __mul__(self, num2):
         print("Let's Multiply")
         return self.num * num2.num
-    
+
+
 n1 = Number(4)
 n2 = Number(6)
-sum = n1 + n2   #Here + have a custom definition that we have defined using dunder __add__ method which takes two parameter
-#if we don't define __add__ then it will throw an error as in class n1+n2 isn't defined because n1 and n2 are objects
+sum = n1 + n2  # Here + have a custom definition that we have defined using dunder __add__ method which takes two parameter
+# if we don't define __add__ then it will throw an error as in class n1+n2 isn't defined because n1 and n2 are objects
 print(sum)
 
-mul = n1*n2
+mul = n1 * n2
 print(mul)
 
 '''

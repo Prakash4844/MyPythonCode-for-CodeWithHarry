@@ -1,7 +1,5 @@
 # A Prorgram to show example 2 in Python
-#Author: Prakash
-
-import os 
+# Author: Prakash
 
 print("Welcome!")
 

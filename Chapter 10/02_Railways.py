@@ -1,20 +1,20 @@
-#Author: Prakash
-import os
+# Author: Prakash
+
 
 class RailwayForm:
-    formType = "Railway Form"   #Class Data member
-    
-    def printData(self):        #Class Member function
+    formType = "Railway Form"  # Class Data member
+
+    def printData(self):  # Class Member function
         print(f"Name is {self.name}")
         print(f"Train is {self.Train}")
-        
-zaphApplication = RailwayForm() #Instantiating Object "zaphApplication"
 
-zaphApplication.name = "ZAPHKILL"           #Attributes of RailwayForm
-zaphApplication.Train = "CRAP Express"      #-----------------------------
 
-zaphApplication.printData()     #Behaviour of zaphApplication
+zaphApplication = RailwayForm()  # Instantiating Object "zaphApplication"
 
+zaphApplication.name = "ZAPHKILL"  # Attributes of RailwayForm
+zaphApplication.Train = "CRAP Express"  # -----------------------------
+
+zaphApplication.printData()  # Behaviour of zaphApplication
 
 '''
 For Clarity 

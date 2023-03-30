@@ -1,28 +1,29 @@
 # A Prorgram to show recursions in Python
-#Author: Prakash
+# Author: Prakash
 
 '''Recursion (adjective: recursive) occurs when a thing is defined in terms of itself or of its type - Wikipedia'''
 
-#Recursion in Python
-#In Python, we know that a function can call other functions. 
+# Recursion in Python
+# In Python, we know that a function can call other functions.
 # it is even possible for the function to call itself. this is known as recursive functions.
-import os 
 
-#The factorial function (symbol: !) says to multiply all whole numbers from our chosen number down to 1.
+
+# The factorial function (symbol: !) says to multiply all whole numbers from our chosen number down to 1.
 # ex. factorial of no 4 = 4x3x2x1 which will be 24
 # factorial 4 can be written as 4!
 
 def factorial(number):
-    if(number == 0 or number == 1): #Base Condition once the value is 1 function doesn't get called anymore
+    if (number == 0 or number == 1):  # Base Condition once the value is 1 function doesn't get called anymore
         return 1
-    
-    return (number*factorial(number-1)) 
-    #here here factorial is * with another factorial function call while decrementing number by 1
-    #This will be repeated till value is 1
 
-num = int(input("Enter a no: ")) # getting a str value from user and casting it to int
+    return (number * factorial(number - 1))
+    # here here factorial is * with another factorial function call while decrementing number by 1
+    # This will be repeated till value is 1
+
+
+num = int(input("Enter a no: "))  # getting a str value from user and casting it to int
 # num = 5
-print("Factorial of ", num, "is ", factorial(num)) #passing the user's entered value in factorial function
+print("Factorial of ", num, "is ", factorial(num))  # passing the user's entered value in factorial function
 
 '''
 NOTE: Be careful while using recursions:

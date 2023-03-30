@@ -1,10 +1,8 @@
-#Taking_Multiple_inputs_in_Python
+# Taking_Multiple_inputs_in_Python
 
-#Author: Prakash
+# Author: Prakash
 
-import os 
-
-''' 
+'''
 in Python user can take multiple values or inputs in one line by two methods. 
 1. Using split() method
 2. Using List comprehension
@@ -30,9 +28,7 @@ It is also used in getting multiple inputs from a user.
 we can also typecast them as shown below
 '''
 
-
 #
 x, y, z = [int(x) for x in input("Enter three values: ").split()]
 
-
-print(x,y,z)
+print(x, y, z)

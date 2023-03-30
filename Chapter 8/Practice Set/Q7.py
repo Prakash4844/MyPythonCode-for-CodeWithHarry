@@ -1,7 +1,5 @@
 ##Practice set Q7
-#Author: Prakash
-
-import os 
+# Author: Prakash
 
 '''
 The strip() method removes any leading (spaces at the beginning) and trailing (spaces at the end) characters (space is the default leading character to remove)
@@ -13,6 +11,7 @@ Parameter  | Values	Description
 characters | Optional. A set of characters to remove as leading/trailing characters
 
 '''
+
 
 # txt = ",,,,,rrttgg.....Anaconda....rrr"
 
@@ -26,12 +25,13 @@ characters | Optional. A set of characters to remove as leading/trailing charact
 
 # print(x)
 
-def remove_and_strip(stri, word ):
-    newstr = stri.replace(word, "")   
+def remove_and_strip(stri, word):
+    newstr = stri.replace(word, "")
     return newstr.strip()
-    
+
+
 stri = "What in the word"
-    
+
 n = remove_and_strip(stri, "word")
 
 print(n)

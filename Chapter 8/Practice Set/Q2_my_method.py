@@ -1,11 +1,11 @@
-#Practice set Q2
-#Author: Prakash
+# Practice set Q2
+# Author: Prakash
 
-import os 
 
 def cel_to_fah(celcius):
-    fahrenheit = (celcius*9/5)+32
+    fahrenheit = (celcius * 9 / 5) + 32
     return fahrenheit
+
 
 cel = int(input("Enter Temperature in Celcius: "))
 fah = round(cel_to_fah(cel), 2)

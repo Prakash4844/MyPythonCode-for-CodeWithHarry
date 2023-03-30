@@ -1,16 +1,15 @@
-#Solution of Practice Set Q4
+# Solution of Practice Set Q4
 # Date: Nov 23, 2021
 # Author: Prakash
 
 import os
 
-#Printing contents of Custom Directory (Parent Dir.)
+# Printing contents of Custom Directory (Parent Dir.)
 li = os.listdir("../")
 print(li)
 
-#Printing constents of Working Directory
+# Printing constents of Working Directory
 print(os.listdir())
-
 
 '''Info
 Syntax: os.listdir(path)

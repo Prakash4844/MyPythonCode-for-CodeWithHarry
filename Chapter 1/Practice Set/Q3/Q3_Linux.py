@@ -1,5 +1,5 @@
 # Author: Prakash
-#Solution of Practice Set Q3
+# Solution of Practice Set Q3
 
 from playsound import playsound
 

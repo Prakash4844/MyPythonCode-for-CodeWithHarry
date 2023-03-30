@@ -1,6 +1,5 @@
-#Practice set Q1
-#Author: Prakash
-import os 
+# Practice set Q1
+# Author: Prakash
 
 f = open("D://Users//Zaphkil!//Documents//VS Code//Python//Workspace//Chapter 9//Practice Set//Q1//poem.txt", 'r')
 t = f.read()

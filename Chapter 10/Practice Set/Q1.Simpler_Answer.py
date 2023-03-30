@@ -1,13 +1,13 @@
 # Practice set Q1
-#Author: Prakash
+# Author: Prakash
 
-import os 
 
 class Programmer:
     company = "Microsoft"
-    
+
     def printDetails(self):
-        print(f"Employee Name is {self.Name}"  )
+        print(f"Employee Name is {self.Name}")
+
 
 programmer1 = Programmer()
 programmer1.Name = "David"

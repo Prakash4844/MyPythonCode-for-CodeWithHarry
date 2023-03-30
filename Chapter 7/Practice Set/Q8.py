@@ -1,7 +1,5 @@
-#Practice set Q8
-#Author: Prakash
-
-import os 
+# Practice set Q8
+# Author: Prakash
 
 for i in range(4):
-    print("*" * (i+1))
+    print("*" * (i + 1))

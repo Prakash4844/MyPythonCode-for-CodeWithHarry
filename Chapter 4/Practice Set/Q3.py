@@ -1,8 +1,6 @@
-#Solution of Practice Set Q3
+# Solution of Practice Set Q3
 
-import os 
+t = (0, 8, 6, 9, 4, 'A')
 
-t = (0,8,6,9,4,'A')
-
-t[0]=5 
-#IT will Throw an Error as tuple are immutable (can't be updated)
+t[0] = 5
+# IT will Throw an Error as tuple are immutable (can't be updated)

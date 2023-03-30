@@ -1,14 +1,15 @@
 # Practice set Q3
-#Author: Prakash
+# Author: Prakash
 
-import os 
 
 class Whatever:
     a = "a = 1"
-    
+
     def printAttribute(self):
-        print(f"Que. Does Instance attribute changes class attribute?\nAns. No, it does not!\nclass attribute = {Whatever.a}.\ninstance attribute = {self.a} ")
-    
+        print(
+            f"Que. Does Instance attribute changes class attribute?\nAns. No, it does not!\nclass attribute = {Whatever.a}.\ninstance attribute = {self.a} ")
+
+
 lol = Whatever()
 lol.a = "lol Instance attribute a = 0"
 
@@ -16,5 +17,3 @@ lol.a = "lol Instance attribute a = 0"
 
 # print(Whatever.a)
 lol.printAttribute()
-
-

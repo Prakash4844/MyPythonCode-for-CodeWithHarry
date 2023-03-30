@@ -9,10 +9,9 @@ Anonymous functions, which are also called lambda functions because they are not
 
 in 01, 02 we used user defined function using def as well as builin like print()
 '''
-import os
 
 
-#User Defined Function
+# User Defined Function
 def greeting(name):
     print(f"Good Morning, {name}")
 
@@ -20,8 +19,7 @@ def greeting(name):
 name = input("Enter a name: ")
 greeting(name)
 
-
-#Built-in functions
+# Built-in functions
 no = 4.64535364
 
-print(round(no, 2)) #Built-in function to round of a float value 
+print(round(no, 2))  # Built-in function to round of a float value

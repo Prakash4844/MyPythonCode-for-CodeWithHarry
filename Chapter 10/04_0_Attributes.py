@@ -34,4 +34,3 @@ Attributes = variable = properties  #These can be used interchangeably
 But in class they are called Data members(in C++)
 
 '''
-

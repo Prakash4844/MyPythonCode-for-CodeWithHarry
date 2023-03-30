@@ -1,6 +1,4 @@
-#Solution of Practice Set Q2
-
-import os
+# Solution of Practice Set Q2
 
 Letter = '''Dear <|NAME|>,
                 You are Selected!
