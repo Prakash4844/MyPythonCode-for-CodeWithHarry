@@ -5,7 +5,7 @@ import os
 
 print("Welcome!")
 
-for i in range(10): #This loop keeps iterating till condition become false and one condition is false else clause is executed
+for i in range(10): #This loop keeps iterating till condition become false and once condition is false, else clause is executed
     print(i)
 else: # This is Optionl part
     print('-1')

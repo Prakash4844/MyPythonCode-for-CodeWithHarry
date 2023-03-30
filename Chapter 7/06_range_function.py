@@ -43,7 +43,7 @@ for i in (range(1, 10, 2)): #Print form 1 to n-1 with skipping every other no.
     
 print('\n')
 
-for i in (range(1, 10, 3)): #Print form 1 to n-1 with skipping 2 no. after evry no.
+for i in (range(1, 10, 3)): #Print form 1 to n-1 with skipping 2 no. after every no.
                         #Start and Stop and step-size is given in range function.
     print(i)
 

@@ -10,8 +10,3 @@ while (i<len(aList)):#Finding the length of aList which is 6 and iterating loop 
     i+=1
     
 print(len(aList)) # Length is 7
-
-
-
-
-
