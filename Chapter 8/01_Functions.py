@@ -26,7 +26,7 @@ mPercentage = round(percentage(marks),
 # Arguments are specified after the function name, inside the parentheses.
 # You can add as many arguments as you want, just separate them with a comma.
 # The information passed by caller are called arguments
-print(f"The percenrtage of given marks is: {mPercentage} ")
+print(f"The percentage of given marks is: {mPercentage} ")
 
 mPercentage = round(percentage(marks2), 2)
-print(f"The percenrtage of given marks2 is: {mPercentage} ")
+print(f"The percentage of given marks2 is: {mPercentage} ")

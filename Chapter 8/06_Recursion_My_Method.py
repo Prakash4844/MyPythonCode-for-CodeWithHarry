@@ -31,7 +31,7 @@ NOTE: Be careful while using recursions:
     Remember that your function must have code that handles the termination conditions. 
     That is, there must be some way for the function to exit without calling itself again.
     
-2.  Stack Overflow. Remember that every function is a separate task that the computer must keep track of. 
+2.  Stack Overflow -> Remember that every function is a separate task that the computer must keep track of. 
     The computer manages a list of tasks that it can maintain, 
     but this list only has a limited amount of space. Should a recursive function require many copies of 
     itself to solve a problem, the computer may not be able to handle that many tasks, causing a system 
