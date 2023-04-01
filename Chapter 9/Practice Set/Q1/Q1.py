@@ -1,7 +1,7 @@
 # Practice set Q1
 # Author: Prakash
 
-f = open("D://Users//Zaphkil!//Documents//VS Code//Python//Workspace//Chapter 9//Practice Set//Q1//poem.txt", 'r')
+f = open("Chapter 9/Practice Set/Q1/poem.txt", 'r')
 t = f.read()
 
 if "Twinkle" in t:

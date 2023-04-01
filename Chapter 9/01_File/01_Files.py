@@ -23,9 +23,9 @@ like images or executable files.
 # Replace the file path with Your File path
 # f = open("D://Users//Zaphkil!//Documents//VS Code//Python//Workspace//Chapter 9//Practice Set//01_File//sample.txt", 'r')
 f = open(
-    "D://Users//Zaphkil!//Documents//VS Code//Python//Workspace//Chapter 9//01_File//sample.txt")  # No 'r' specified
-# Opening a file in Read mode Which is Default mode(Can be omitted if you like), sample.txt must be in same directory 
-# where you are runing code or You will have to manually Specify the directory as i have
+    "Chapter 9/01_File/sample.txt")  # No 'r' specified
+# Opening a file in Read mode Which is Default mode(Can be omitted if you like), sample.txt must be in same directory, I am using Relative path.
+# where you are runing code or You will have to manually Specify the directory as i have shown
 
 
 # data = f.read()
@@ -41,5 +41,5 @@ f.close()
 
 '''
 NOTE:   In windows You might get an error while reading file using normal path as windows use '\' in path
-        Replace all '\' in windows path with '//' as i have done 
+        Replace all '\' in windows path with '//' as i have shown
 '''

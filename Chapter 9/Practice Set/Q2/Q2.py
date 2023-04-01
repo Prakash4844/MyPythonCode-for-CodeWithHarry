@@ -9,16 +9,13 @@ def game():
 
 score = game()
 
-with open("D://Users//Zaphkil!//Documents//VS Code//Python//Workspace//Chapter 9//Practice Set//Q2//HiScore.txt",
-          'r') as f:
+with open("Chapter 9/Practice Set/Q2/HiScore.txt",'r') as f:
     hiscorestr = f.read()
 
 if hiscorestr == '':
-    with open("D://Users//Zaphkil!//Documents//VS Code//Python//Workspace//Chapter 9//Practice Set//Q2//HiScore.txt",
-              'w') as f:
+    with open("Chapter 9/Practice Set/Q2/HiScore.txt",'w') as f:
         f.write(str(score))
 
 elif (score > int(hiscorestr)):
-    with open("D://Users//Zaphkil!//Documents//VS Code//Python//Workspace//Chapter 9//Practice Set//Q2//HiScore.txt",
-              'w') as f:
+    with open("Chapter 9/Practice Set/Q2/HiScore.txt",'w') as f:
         f.write(str(score))
