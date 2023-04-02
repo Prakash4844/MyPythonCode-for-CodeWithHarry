@@ -4,7 +4,7 @@ MyPythonCode for CodeWithHarry's 15 hours Python Course on YouTube
 
 Part 1 Video Link: https://youtu.be/gfDE2a7MKjA
 
-CHAPTER LIST
+### CHAPTER LIST
 
 Chapter 0 - Introduction(No code to add)✅
 
@@ -60,7 +60,7 @@ Project 2 - The Perfect Guess✅
 
 Part 2 of this video: https://www.youtube.com/watch?v=61a7U...
 
-►Covered in Part 2 of this Video
+### Covered in Part 2 of this Video
 
 Chapter 12 - Advanced Python 1🔲
 
@@ -74,7 +74,7 @@ Project 3 - Library Management System🔲
 
 ---------------------------END OF (Part 2)/series------------------------------
 
-Other_Codes Folder contains some code that i needed to write, i forgot the raeson...
+Other_Codes Folder contains some code that i needed to write, i forgot the reasons...
 
 📝I have added a few Additional Comments
 
