@@ -1,7 +1,6 @@
 # Practice set Q7
 # Author: Prakash
 
-
 class Vector:
     def __init__(self, vec):
         self.vec = vec

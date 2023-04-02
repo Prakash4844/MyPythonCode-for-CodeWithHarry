@@ -12,8 +12,7 @@ class C2DVector:
 
 
 '''
-The __str__ method in Python represents the class objects as a string, it can be used for classes. The __str__ method
-should be defined in a way that is easy to read and outputs all the members of the class.
+The __str__ method in Python represents the class objects as a string, it can be used for classes. The __str__ method should be defined in a way that is easy to read and outputs all the members of the class.
 '''
 
 

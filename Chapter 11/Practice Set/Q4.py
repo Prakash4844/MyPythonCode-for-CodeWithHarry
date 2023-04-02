@@ -23,9 +23,13 @@ class Complex:
         mulImage = self.real * c.image + self.image * c.real
         return Complex(mulReal, mulImage)
 
+    def __str__(self):
+        return f"{self.real} + {self.image}i"
 
 n1 = Complex(3, 2)
 n2 = Complex(1, 7)
 
 print(n1 + n2)
 print(n1 * n2)
+print(n1)
+print(n2)
