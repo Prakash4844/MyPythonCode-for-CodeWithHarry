@@ -9,12 +9,12 @@ class RailwayForm:
         print(f"Train is {self.Train}")
 
 
-zaphApplication = RailwayForm()  # Instantiating Object "zaphApplication"
+zApplication = RailwayForm()  # Instantiating Object "zApplication"
 
-zaphApplication.name = "ZAPHKILL"  # Attributes of RailwayForm
-zaphApplication.Train = "CRAP Express"  # -----------------------------
+zApplication.name = "ZAPHKIEL"  # Attributes of zApplication
+zApplication.Train = "CRAP Express"  # -----------------------------
 
-zaphApplication.printData()  # Behaviour of zaphApplication
+zApplication.printData()  # Behaviour of zApplication
 
 '''
 For Clarity 

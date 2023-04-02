@@ -4,9 +4,9 @@
 
 '''
 This is an Example of a class, classes are blueprint for creating an object of class, class don't take memory by themselves 
-they take memory when we instantiate a obj of a class, classes can contain variable and function/method 
-variable in class are refered as "data members" of that class
-function/method in class are refered as "Member functions" of that class
+they take memory when we instantiate an obj of a class, classes can contain variable and function/method 
+variable in class are refered as "data members/Attribute/field" of that class.
+function/method in class are refered as "Member functions/method/behavior" of that class.
 '''
 
 
@@ -24,8 +24,8 @@ num = Number()  # Here we are creating a obj of class Number Which is named as n
 # attributes
 # behavior
 
-num.a = 12  # data member(variable) of obj named num which is created from class number(attributes)
-num.b = 45  # data member(variable) of obj named num (attributes)
+num.a = 12  # data member(variable), of obj named num. is attribute
+num.b = 45  # data member(variable), of obj named num. is attribute
 
 s = num.sum()  # we are calling member function/method of class Number using obj num and storing it in s(behavior)
 print(s)

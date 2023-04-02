@@ -2,13 +2,12 @@
 
 
 class Remote:
-    pass
+    def pressLeft(self):
+        pass
 
 
 '''
-Abstraction in Python is the process of hiding the real implementation of an application from the user and emphasizing only 
-on usage of it,Through the process of abstraction in Python, a programmer can hide all the irrelevant data/process of an 
-application in order to reduce complexity and increase efficiency.
+Abstraction in Python is the process of hiding the real implementation of an application from the user and emphasizing only on usage of it,Through the process of abstraction in Python, a programmer can hide all the irrelevant data/process of an application in order to reduce complexity and increase efficiency.
 
 user or programmer need not know all the detail of implementation of class in order to use it
 

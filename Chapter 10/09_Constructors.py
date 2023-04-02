@@ -10,7 +10,7 @@ class Employee:
         self.salary = Salary  #
         self.division = Division  #
 
-        print("Employee is Created!")
+        print("Employee is Created!\n")
 
     def getDetails(self):
         print(
@@ -30,7 +30,6 @@ Ans. This being printed from constructor as soon as object is created the constr
 
 2.  Which function Prints
     "
-    Employee is Created!
     Employee name: Ymir
     Salary is 503210 in Division YouTube uses Intials: Y.
     "

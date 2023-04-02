@@ -9,7 +9,7 @@ are the variables defined directly in the class that are shared by all objects o
 3.Accessed using class name as well as using object with dot notation, 
     e.g. classname.class_attribute or object.class_attribute
 4.Changing value by using classname.class_attribute = value will be reflected to all the objects.	
-    Changing value of instance attribute will 
+5. But be careful, if you want to change a class attribute, you have to do it with the notation     ClassName.AttributeName. Otherwise, you will create a new instance variable.
 
 --------------------------------------------------------
 
@@ -25,12 +25,11 @@ Instance attributes are defined in the constructor.
 
 NOTE: 
 Method = Function   #These can be used interchangeably
-But in class Method/Function are called Member function(in C++)
+But in class, Method/Function are called Member function(in C++)
 
 I PREFER TO USE FUNCTION AS IT IS MATHEMATICALLY CORRECT TERM.
 
-
-Attributes = variable = properties  #These can be used interchangeably
-But in class they are called Data members(in C++)
+Attributes = variable = properties = field  #These can be used interchangeably
+But in class, they are called Data members(in C++)
 
 '''

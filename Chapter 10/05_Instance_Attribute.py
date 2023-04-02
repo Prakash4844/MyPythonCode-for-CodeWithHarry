@@ -2,7 +2,7 @@
 
 
 class Employee:
-    company = "Google"  # Class Attribute This is same for all objects
+	company = "Google"  # Class Attribute This is same for all objects
     salary = "5000"  # Class Attribute is predefined and will be used if instance attribute is not created
     # Instance attribute take priority over class Attribute During assignment and retrival
 
