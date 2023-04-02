@@ -7,7 +7,7 @@ class Whatever:
 
     def printAttribute(self):
         print(
-            f"Que. Does Instance attribute changes class attribute?\nAns. No, it does not!\nclass attribute = {Whatever.a}.\ninstance attribute = {self.a} ")
+            f"Ques-. Does Instance attribute changes class attribute?\nAns. No, it does not!\nclass attribute = {Whatever.a}.\ninstance attribute = {self.a} ")
 
 
 lol = Whatever()

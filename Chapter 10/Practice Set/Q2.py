@@ -2,7 +2,7 @@
 # Author: Prakash
 
 
-class Claculator:
+class Calculator:
 
     def __init__(self, num):
         self.num = num
@@ -20,7 +20,7 @@ class Claculator:
         # '**' is Exponentiation oprator in python. ex. self.num**0.5 = (self.num)⁽¹/²⁾  
 
 
-num1 = Claculator(8)
+num1 = Calculator(8)
 num1.square()
 num1.cube()
 num1.squreroot()

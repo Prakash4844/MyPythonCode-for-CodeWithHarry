@@ -10,7 +10,6 @@ class Train:
         self.fair = fair
 
     def bookTicket(self):
-
         if (len(self.seatList) > 0):  # Checking if len of list is greater then 0
             print(
                 f"congratulation, your ticket is booked, Your seat no. is {self.seatList[-1]}")  # printing last element of the list, which is accessed by index[-1]

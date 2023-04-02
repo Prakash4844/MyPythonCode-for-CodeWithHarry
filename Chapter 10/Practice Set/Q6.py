@@ -7,5 +7,5 @@ class Sample:
         slf.name = name  # Whatever you will replace self with should be used for accessing instance attributes
 
 
-obj = Sample("Zaphkill")
+obj = Sample("Zaphkiel")
 print(obj.name)

@@ -4,7 +4,7 @@
 from math import sqrt
 
 
-class Claculator:
+class Calculator:
 
     @staticmethod
     def square(no):
@@ -22,7 +22,7 @@ class Claculator:
         print(f"sqroot of given {no} is {round(sqroot, 3)}.")
 
 
-num1 = Claculator()
+num1 = Calculator()
 newNum = 8
 num1.square(newNum)
 num1.cube(newNum)
