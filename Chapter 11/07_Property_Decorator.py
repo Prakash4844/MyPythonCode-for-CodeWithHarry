@@ -31,7 +31,7 @@ e = Employee()
 print(e.totalSalary)  # since this is not perceived as function but rather as property due to this doesn't require ()
 # Since this is property we can change it just like property
 
-e.totalSalary = 5500  # if we change this property then we will have to do something so that it is changed as salary+salaryBonus
+e.totalSalary = 6000  # if we change this property then we will have to do something so that it is changed as salary+salaryBonus
 # for this we will have to use setter function
 
 print(e.salary)

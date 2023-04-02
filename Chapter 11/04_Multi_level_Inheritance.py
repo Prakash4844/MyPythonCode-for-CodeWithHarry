@@ -12,24 +12,21 @@ class Person():  # First Class which Doesn't inherit any class
 class Employee(Person):  # Second Class which inherit from Person class
     company = "Jaguar"
 
-    def getSalary(self):
+    def getInfo(self):
         print("Jaguar is a TATA Company.")
 
-    def breath(
-            self):  # when we call breath from instance of Employee class this will overwrite the method from Person class.
-        print("i am employee and i am Breathing in style....")
+    def breath(self):  # when we call breath from instance of Employee class, this will overwrite the method from Person class.
+        print("i am an employee and i am Breathing in style....")
 
 
 class Programmer(Employee):  # Third Class which inherit from Employee class which in returns inherit from Person class
     # This class have access to both Person class attribute and Employee class Attribute
     company = "AUDI"
 
-    def getSalary(
-            self):  # when we call getSalary from instance of Programmer class this will overwrite the method from Employee class.
+    def getInfo(self):  # when we call getInfo from instance of Programmer class this will overwrite the method from Employee class.
         print("We are Bathing in Dollars.")
 
-    def breath(
-            self):  # when we call breath from instance of Programmer class this will overwrite the method from Employee class.
+    def breath(self):  # when we call breath from instance of Programmer class this will overwrite the method from Employee class.
         print("i am Programmer and i don't know why i am Breathing....")
 
 

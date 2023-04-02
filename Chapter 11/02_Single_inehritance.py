@@ -2,7 +2,7 @@
 # This type of inheritance is single inheritance.
 
 
-class Employee():  # -----------------------|
+class Employee:  # -----------------------|
     company = "Google"  # |
 
     #   |------>This is a Base Class.
@@ -10,15 +10,18 @@ class Employee():  # -----------------------|
         print("This is an Employee")  # ---|
 
 
-class Programmer(Employee):  # -----------------------------------| #Here we are Inheriting From Base Class Employee
+class Programmer(Employee):  
+    # -----------------------------------| #Here we are Inheriting From Base Class Employee
     company = "YouTube"  # |
-
     #   |------>This is a Derived Class.
-    def showDetail(self):  # overwriting showdetail of base class.  |
+
+    def showDetail(self): 
+        # overwriting showdetail of base class.  |
         print("This is a Programmer")  # |
         #   |
 
-    def getLang():  # Adding new attribute in Derived class      #   |
+    def getLang():  
+        # Adding new attribute in Derived class      #   |
         print("They Specialize in Python.")  # ---------------|
 
 

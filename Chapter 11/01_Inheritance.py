@@ -1,6 +1,5 @@
 # Author: Prakash
 
-
 class Employee():  # -----------------------|
     company = "Google"  # |
 

@@ -14,14 +14,15 @@ Advantages of Inheritance
    easy to read. This way inheritance also improves the readability of code.
 
 ================================
+
 Types of Inheritance in Python Programming
 Types of inheritance: There are five types of inheritance in python programming:
 
-1). Single inheritance
-2). Multiple inheritances
-3). Multilevel inheritance
-4). Hierarchical inheritance
-5). Hybrid inheritance
+- Single inheritance
+- Multiple inheritances
+- Multilevel inheritance
+- Hierarchical inheritance
+- Hybrid inheritance
 
 (i). Single inheritance: When child class is derived from only one parent class.
 This is called single inheritance. The example we did above is the best example for single inheritance

@@ -17,8 +17,8 @@ class Freelancer():
 
 
 # Whichever Class is inherited first will be given priority while accessing method and attributes
-class programmer(Employee, Freelancer):  # ----------------------------|
-    name = "Manique"  # -------------------------------------------|=> Derived class Inheriting from both Employee and Freelancer
+class programmer(Employee, Freelancer):  # ----------------------------| Derived class Inheriting from both Employee and Freelancer
+    name = "Manique"  # -------------------------------------------|=> 
 
 
 p = programmer()  # Instance of Programmer class which inherit from both Employee and Freelancer class
